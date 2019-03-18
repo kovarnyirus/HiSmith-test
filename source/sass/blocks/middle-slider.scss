@@ -128,6 +128,7 @@
     max-width: 290px;
   }
   .middle-slider__arrow-right {
-    right: 11.5%;
+    right: 50%;
+    transform: translateX(400px);
   }
 }

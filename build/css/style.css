@@ -576,7 +576,7 @@ p {
   .team__arrow-right {
     display: block;
     position: absolute;
-    right: 48px;
+    right: 32px;
     top: 154px;
     z-index: 100; }
   .team__arrow-left {
@@ -586,19 +586,20 @@ p {
   .team__wrapper {
     max-width: 1024px;
     padding-left: 119px;
-    padding-right: 80px;
+    padding-right: 119px;
     margin-left: auto;
     margin-right: auto; }
   .team__item-description {
     right: -65px; }
   .team__list {
-    padding-left: 80px; }
+    padding-left: 80px;
+    padding-right: 70px; }
   .team__arrow-right {
-    right: 80px; }
+    right: 119px; }
   .team__arrow-left {
     left: 54px; }
   .team__overlay {
-    margin-right: 80px; } }
+    margin-right: 189px; } }
 
 .experience {
   background-color: #ff351b; }
@@ -773,7 +774,9 @@ p {
   .middle-slider__item-reed-more {
     max-width: 290px; }
   .middle-slider__arrow-right {
-    right: 11.5%; } }
+    right: 50%;
+    -webkit-transform: translateX(400px);
+            transform: translateX(400px); } }
 
 @media (min-width: 768px) {
   .sliders-wrapper {
@@ -821,7 +824,8 @@ p {
   .photo-gallery__arrow-right {
     display: block;
     position: absolute;
-    right: 8%;
+    right: 0;
+    margin-right: 30px;
     top: 34%; }
   .photo-gallery__title {
     margin-bottom: 41px; }
@@ -830,12 +834,15 @@ p {
 
 @media (min-width: 1024px) {
   .photo-gallery__wrapper {
+    max-width: 513px;
     padding-left: 88px;
-    padding-bottom: 49px; }
+    padding-bottom: 49px;
+    margin-right: 0; }
   .photo-gallery__item {
     padding-right: 211px; }
   .photo-gallery__arrow-right {
-    padding-right: 120px;
+    right: 0;
+    margin-right: 120px;
     top: 32%; } }
 
 .text-slider {
@@ -891,10 +898,14 @@ p {
 
 @media (min-width: 1024px) {
   .text-slider__wrapper {
-    padding-left: 64px; }
+    padding-left: 64px;
+    max-width: 512px;
+    margin-right: auto; }
   .text-slider__arrow-right {
     top: 35%;
-    right: 11%; } }
+    right: 115px; }
+  .text-slider__item-text {
+    max-width: 280px; } }
 
 .rebeccamouth {
   padding-top: 32px;
@@ -943,17 +954,24 @@ p {
 
 @media (min-width: 768px) {
   .rebeccamouth {
-    padding-left: 87px;
-    padding-right: 58%;
+    padding-left: 0;
+    padding-right: 0;
     background-size: cover; }
   .rebeccamouth__item-text,
   .rebeccamouth__item-subtitle {
-    padding-right: 16px; } }
+    padding-right: 16px; }
+  .rebeccamouth__wrapper {
+    max-width: 768px;
+    margin: auto;
+    padding-left: 88px;
+    padding-right: 450px; } }
 
 @media (min-width: 1024px) {
-  .rebeccamouth {
-    padding-left: 11.5%;
-    padding-right: 65%; } }
+  .rebeccamouth__wrapper {
+    max-width: 1024px;
+    margin: auto;
+    padding-left: 119px;
+    padding-right: 675px; } }
 
 .footer {
   background-color: #636363;
@@ -1025,7 +1043,8 @@ p {
             order: 2;
     margin-left: auto;
     padding-right: 0;
-    padding-right: 10px; }
+    padding-right: 10px;
+    width: 25%; }
   .footer__condition-use,
   .footer__policy,
   .footer__copyright__wrapper {
@@ -1043,12 +1062,15 @@ p {
         -ms-flex-order: 6;
             order: 6; } }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .footer__wrapper {
     max-width: 1024px;
     padding-left: 119px;
     padding-right: 119px;
-    padding-bottom: 21px; } }
+    padding-bottom: 21px; }
+  .footer__social {
+    width: 22%;
+    padding-right: 0; } }
 
 .footer-nav {
   display: -webkit-box;
@@ -1104,6 +1126,13 @@ p {
   display: block;
   padding-top: 10px; }
 
+.footer-nav__section-address {
+  max-width: 111px;
+  color: #b0afaf;
+  line-height: 1.67;
+  font-size: 12px;
+  margin-bottom: 8px; }
+
 @media (min-width: 768px) {
   .footer-nav {
     -webkit-box-ordinal-group: 2;
@@ -1135,34 +1164,34 @@ p {
     top: 0; }
   .decor-line__item:nth-child(2) {
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 0; }
   .decor-line__item:nth-child(3) {
     position: absolute;
-    left: 55%;
+    left: 51%;
     top: 0; }
   .decor-line__item:nth-child(4) {
     position: absolute;
-    left: 65%;
+    left: 68%;
     top: 0; }
   .decor-line__item:nth-child(5) {
     position: absolute;
-    left: 75%;
+    left: 78%;
     top: 0; }
   .decor-line__item:nth-child(6) {
     position: absolute;
-    left: 85%;
+    left: 86%;
     top: 0; }
   .decor-line__item:nth-child(7) {
     position: absolute;
-    left: 95%;
+    left: 93%;
     top: 0; }
   .decor-line__item:nth-child(8) {
     position: absolute;
     right: 5px;
     top: 0; }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .decor-line {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;

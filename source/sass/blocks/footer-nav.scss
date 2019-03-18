@@ -48,9 +48,18 @@
   font-size: 12px;
   font-family: "PT Sans", "Arial", sans-serif;
 }
-.footer-nav__contacts__mail{
+
+.footer-nav__contacts__mail {
   display: block;
   padding-top: 10px;
+}
+
+.footer-nav__section-address {
+  max-width: 111px;
+  color: #b0afaf;
+  line-height: 1.67;
+  font-size: 12px;
+  margin-bottom: 8px;
 }
 
 @media (min-width: 768px) {

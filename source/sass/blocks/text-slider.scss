@@ -66,9 +66,14 @@
 @media (min-width: 1024px) {
   .text-slider__wrapper {
     padding-left: 64px;
+    max-width: 512px;
+    margin-right: auto;
   }
   .text-slider__arrow-right {
     top: 35%;
-    right: 11%;
+    right: 115px;
+  }
+  .text-slider__item-text {
+    max-width: 280px;
   }
 }

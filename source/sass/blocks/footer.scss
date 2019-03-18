@@ -73,6 +73,7 @@
     margin-left: auto;
     padding-right: 0;
     padding-right: 10px;
+    width: 25%;
   }
   .footer__condition-use,
   .footer__policy,
@@ -90,11 +91,15 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .footer__wrapper{
     max-width: 1024px;
     padding-left: 119px;
     padding-right: 119px;
     padding-bottom: 21px;
+  }
+  .footer__social{
+    width: 22%;
+    padding-right: 0;
   }
 }

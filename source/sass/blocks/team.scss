@@ -98,7 +98,7 @@
   .team__arrow-right {
     display: block;
     position: absolute;
-    right: 48px;
+    right: 32px;
     top: 154px;
     z-index: 100;
   }
@@ -111,7 +111,7 @@
   .team__wrapper {
     max-width: 1024px;
     padding-left: 119px;
-    padding-right: 80px;
+    padding-right: 119px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -120,14 +120,15 @@
   }
   .team__list {
     padding-left: 80px;
+    padding-right: 70px;
   }
   .team__arrow-right {
-    right: 80px;
+    right: 119px;
   }
   .team__arrow-left {
     left: 54px;
   }
   .team__overlay{
-    margin-right: 80px;
+    margin-right: 189px;
   }
 }

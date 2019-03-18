@@ -171,28 +171,40 @@
     <div class="team__title">Gerryville</div>
     <div class="team__list">
       <div class="team__item">
-        <img src="img/team-1.png"  width="297" alt="team__member" class="team__item-img">
+        <picture>
+          <source type="image/webp" srcset="img/team-1.webp">
+          <img src="img/team-1.png"  width="297" alt="team__member" class="team__item-img">
+        </picture>
         <div class="team__item-description">
           <div class="team__item-name">Delivering Kisses And Miracles</div>
           <div class="team__item-post">Port Ivy</div>
         </div>
       </div>
       <div class="team__item">
-        <img src="img/team-2.png" width="297" alt="team__member" class="team__item-img">
+        <picture>
+          <source type="image/webp" srcset="img/team-2.webp">
+          <img src="img/team-2.png" width="297" alt="team__member" class="team__item-img">
+        </picture>
         <div class="team__item-description">
           <div class="team__item-name">Delivering Kisses And Miracles</div>
           <div class="team__item-post">Port Ivy</div>
         </div>
       </div>
       <div class="team__item">
-        <img src="img/team-3.png" width="297" alt="team__member" class="team__item-img">
+        <picture>
+          <source type="image/webp" srcset="img/team-3.webp">
+          <img src="img/team-3.png" width="297" alt="team__member" class="team__item-img">
+        </picture>
         <div class="team__item-description">
           <div class="team__item-name">Delivering Kisses And Miracles</div>
           <div class="team__item-post">Port Ivy</div>
         </div>
       </div>
       <div class="team__item">
-        <img src="img/team-3.png" width="297" alt="team__member" class="team__item-img">
+        <picture>
+          <source type="image/webp" srcset="img/team-3.webp">
+          <img src="img/team-3.png" width="297" alt="team__member" class="team__item-img">
+        </picture>
         <div class="team__item-description">
           <div class="team__item-name">Delivering Kisses And Miracles</div>
           <div class="team__item-post">Port Ivy</div>
@@ -274,15 +286,25 @@
       <h2 class="photo-gallery__title">Perfume Tips Tricks</h2>
       <div class="photo-gallery__list">
         <div class="photo-gallery__item">
-          <img src="img/photo-gallery.jpg" srcset="img/photo-gallery@2x.jpg 2x" alt="фото" class="photo-gallery__item-img">
+          <picture>
+            <source type="image/webp" srcset="img/photo-gallery.webp 1x, img/photo-gallery@2x.webp 2x">
+            <img src="img/photo-gallery.jpg" srcset="img/photo-gallery@2x.jpg 2x" alt="фото" class="photo-gallery__item-img">
+          </picture>
+
           <div class="photo-gallery__item-caption">Kittyfort</div>
         </div>
         <div class="photo-gallery__item">
-          <img src="img/photo-gallery.jpg" srcset="img/photo-gallery@2x.jpg 2x" alt="фото" class="photo-gallery__item-img">
+          <picture>
+            <source type="image/webp" srcset="img/photo-gallery.webp 1x, img/photo-gallery@2x.webp 2x">
+            <img src="img/photo-gallery.jpg" srcset="img/photo-gallery@2x.jpg 2x" alt="фото" class="photo-gallery__item-img">
+          </picture>
           <div class="photo-gallery__item-caption">Kittyfort</div>
         </div>
         <div class="photo-gallery__item">
-          <img src="img/photo-gallery.jpg" srcset="img/photo-gallery@2x.jpg 2x" alt="фото" class="photo-gallery__item-img">
+          <picture>
+            <source type="image/webp" srcset="img/photo-gallery.webp 1x, img/photo-gallery@2x.webp 2x">
+            <img src="img/photo-gallery.jpg" srcset="img/photo-gallery@2x.jpg 2x" alt="фото" class="photo-gallery__item-img">
+          </picture>
           <div class="photo-gallery__item-caption">Kittyfort</div>
         </div>
       </div>
@@ -349,11 +371,13 @@
   </div>
 </div>
 <section class="rebeccamouth">
-  <h2 class="rebeccamouth__item-title">Rebeccamouth</h2>
-  <div class="rebeccamouth__item-subtitle">South Justicestad</div>
-  <p class="rebeccamouth__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
-    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin</p>
-  <div class="rebeccamouth__reed-more">Подробнее</div>
+  <div class="rebeccamouth__wrapper">
+    <h2 class="rebeccamouth__item-title">Rebeccamouth</h2>
+    <div class="rebeccamouth__item-subtitle">South Justicestad</div>
+    <p class="rebeccamouth__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+      laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin</p>
+    <div class="rebeccamouth__reed-more">Подробнее</div>
+  </div>
 </section>
 <footer class="footer">
   <div class="footer__wrapper">
@@ -375,14 +399,11 @@
       </ul>
       <ul class="footer-nav__section">
         <li class="footer-nav__section-title">Раздел 3</li>
-      </ul>
-      <ul class="footer-nav__section">
         <li class="footer-nav__section-title">Раздел 4</li>
       </ul>
       <ul class="footer-nav__section">
         <li class="footer-nav__section-title">Раздел 5</li>
-        <li class="footer-nav__section-item"><a href="#" class="footer-nav__section-link">Раздел 1</a></li>
-        <li class="footer-nav__section-item"><a href="#" class="footer-nav__section-link">Раздел 2</a></li>
+        <li class="footer-nav__section-address">5658 Morton Ford Suite 741</li>
         <li><a href="@" class="footer-nav__contacts__mail">mail@gmail.com</a></li>
         <li> <a href="tel:+70000000000" class="footer-nav__contacts__phone">Т:+7 000 000 00 00</a></li>
         <li> <a href="tel:+70000000000" class="footer-nav__contacts__phone">Т:+7 000 000 00 00</a></li>
