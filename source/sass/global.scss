@@ -1,0 +1,108 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  font-family: "PT Serif", "Arial", sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 0;
+}
+
+.sprite__wrapper {
+  display: none;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 120%;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+  font-family: "PT Serif", "Arial", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Serif", "Arial", sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-black;
+}
+
+.red-text{
+  color: $color-red;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+.slider-arrow-left,
+.slider-arrow-right{
+  width: 13px;
+  cursor: pointer;
+}
+
+
+.select-input{
+  position: relative;
+  &:before{
+    position: absolute;
+    display: block;
+    content: '';
+    right: 6px;
+    top: 10px;
+    width: 8px;
+    height: 2px;
+    background-color: $color-red;
+    z-index: 10;
+    transform: rotate(45deg);
+
+  }
+  &:after{
+    position: absolute;
+    display: block;
+    content: '';
+    right: 1px;
+    top: 10px;
+    width: 8px;
+    height: 2px;
+    background-color: $color-red;
+    z-index: 10;
+    transform: rotate(-45deg);
+  }
+}

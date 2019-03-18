@@ -1,0 +1,69 @@
+.rebeccamouth {
+  padding-top: 32px;
+  padding-left: 10px;
+  padding-right: 81px;
+  padding-bottom: 71px;
+  background-image: url("../img/rebeccamouth.jpg");
+  background-repeat: no-repeat;
+  background-position:bottom;
+}
+.rebeccamouth__item-title{
+  font-size: 24px;
+  line-height: 1;
+  margin-bottom: 48px;
+}
+
+.rebeccamouth__item-subtitle{
+  font-size: 17px;
+  line-height: 1.21;
+  margin-bottom: 6px;
+  color: $color-red;
+}
+
+.rebeccamouth__item-text{
+  line-height: 1.45;
+  font-family: "PT Sans", "Arial", sans-serif;
+  padding-bottom: 5px;
+}
+
+.rebeccamouth__reed-more{
+  width: 100%;
+  text-align: right;
+  padding-top: 30px;
+  position: relative;
+  color: $color-white;
+  font-size: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  &:before{
+    width: 1px;
+    height: 23px;
+    background-color: $color-red;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    content: '';
+  }
+}
+
+@media (min-width: 768px) {
+  .rebeccamouth{
+    padding-left: 87px;
+    padding-right: 58%;
+    background-size: cover;
+  }
+  .rebeccamouth__item-text,
+  .rebeccamouth__item-subtitle{
+    padding-right: 16px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .rebeccamouth{
+    padding-left: 11.5%;
+    padding-right: 65%;
+  }
+}

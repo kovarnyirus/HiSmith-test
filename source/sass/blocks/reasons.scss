@@ -1,0 +1,42 @@
+.reasons__wrapper {
+  margin-top: 46px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reasons__title {
+  width: 70%;
+  line-height: 1;
+  font-size: 24px;
+  color: $brownish-grey;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .reasons__wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reasons__title {
+    width: 30%;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .reasons__wrapper {
+    max-width: 1024px;
+    padding-left: 116px;
+    padding-right: 116px;
+  }
+}

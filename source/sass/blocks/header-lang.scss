@@ -1,0 +1,22 @@
+.header-lang{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.header-lang__link{
+  margin-left: 4px;
+  font-size: 7px;
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.header-lang__link--active{
+  color: $color-red;
+}
+
+@media (min-width: 1024px) {
+  .header-lang{
+    order: 1;
+  }
+}

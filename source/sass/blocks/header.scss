@@ -1,0 +1,33 @@
+.header__wrapper{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media (min-width: 768px) {
+  .header__wrapper{
+    max-width: 768px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .header__logo{
+    order: 2;
+  }
+
+  .header__search{
+    order: 4;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__wrapper{
+    max-width: 1024px;
+    padding-left: 117px;
+    padding-right: 117px;
+  }
+}

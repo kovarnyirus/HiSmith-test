@@ -1,0 +1,33 @@
+.reasons-form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reasons-form__item{
+  width: 47%;
+}
+
+.reasons-form__select{
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.28;
+  color: $color-red;
+  text-transform: uppercase;
+  border: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ababab;
+  appearance: none;
+  position: relative;
+
+}
+
+@media (min-width: 768px) {
+  .reasons-form{
+    width: 67%;
+  }
+  .reasons-form__item{
+    width: 43%;
+  }
+}
+

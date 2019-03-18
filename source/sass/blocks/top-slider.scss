@@ -1,0 +1,124 @@
+.top-slider {
+  position: relative;
+}
+
+.top-slider__slide {
+  background-image: url("../img/header-slider.jpg");
+  background-position: 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 414px;
+  padding-top: 221px;
+}
+
+.top-slider__slide-title {
+  color: $color-white;
+  padding-left: 18px;
+  font-size: 23px;
+  line-height: 1.25;
+  padding-right: 35px;
+  z-index: 1;
+  position: relative;
+}
+
+.top-slider__lines-wrapper {
+  position: absolute;
+  right: 12px;
+  top: 50px;
+}
+
+.top-slider__slide-reed-more {
+  color: $color-red;
+  font-size: 14px;
+  font-style: italic;
+  font-family: "PT Serif", "Arial", sans-serif;
+  margin-left: 19px;
+  padding-top: 50px;
+  display: block;
+  position: relative;
+  padding-bottom: 45px;
+
+  &:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 1px;
+    height: 27px;
+    background-color: $color-red;
+    top: 10px;
+    left: 0;
+  }
+}
+
+.top-slider__counter {
+  position: absolute;
+  top: 193px;
+  left: 10px;
+  color: $color-white;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 12px;
+  z-index: 500;
+}
+
+.top-slider__arrow-right {
+  position: absolute;
+  top: 49%;
+  right: 3%;
+}
+
+.top-slider__arrow-left {
+  display: none;
+}
+
+
+
+@media (min-width: 768px) {
+  .top-slider__slide-title {
+    padding-left: 11%;
+    max-width: 376px;
+    font-size: 28px;
+    line-height: 1.03;
+  }
+  .top-slider__slide-reed-more {
+    margin-left: 11%;
+
+  }
+  .top-slider__lines-wrapper {
+    right: 9%;
+    top: 16%;
+  }
+  .top-slider__lines {
+    width: 150px;
+    height: 280px;
+  }
+  .top-slider__counter {
+    left: 10%;
+  }
+  .top-slider__arrow-right {
+    right: 6%;
+  }
+  .top-slider__content-wrapper{
+    max-width: 768px;
+    margin: auto;
+  }
+  .top-slider__counter{
+    left: 50%;
+    transform: translateX(-310px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-slider__arrow-right {
+    right: 11%;
+  }
+  .top-slider__lines-wrapper {
+    right: 14%;
+    top: 16%;
+  }
+  .top-slider__content-wrapper{
+    max-width: 1024px;
+  }
+  .top-slider__counter{
+    transform: translateX(-410px);
+  }
+}

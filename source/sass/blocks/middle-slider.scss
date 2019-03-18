@@ -1,0 +1,133 @@
+.middle-slider {
+  position: relative;
+}
+
+.middle-slider__items {
+  position: relative;
+}
+
+.middle-slider__item {
+  background-image: url("../img/middle-slider.jpg");
+  min-height: 354px;
+  padding-top: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.middle-slider__content-wrapper {
+  position: relative;
+}
+
+.middle-slider__item-title {
+  width: 60%;
+  color: $color-white;
+  font-size: 24px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.middle-slider__item-subtitle {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.13;
+  color: $color-red;
+  width: 80%;
+  margin-bottom: 7px;
+}
+
+.middle-slider__item-text {
+  font-size: 11px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  line-height: 1.27;
+  color: $color-white;
+  padding-bottom: 8px;
+}
+
+.middle-slider__item-reed-more {
+  width: 100%;
+  text-align: right;
+  padding-top: 30px;
+  position: relative;
+  color: $color-white;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-size: 6px;
+  font-family: "PT Sans", "Arial", sans-serif;
+
+  &:before {
+    width: 1px;
+    height: 23px;
+    background-color: $color-red;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    content: '';
+  }
+}
+
+.middle-slider__arrow-left,
+.middle-slider__arrow-right {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .middle-slider__item {
+    padding-left: 0;
+    padding-right: 0;
+    background-size: cover;
+  }
+
+  .middle-slider__content-wrapper {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 323px;
+    padding-left: 88px;
+  }
+
+  .middle-slider__item-title {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .middle-slider__item-text {
+    max-width: 255px;
+  }
+  .middle-slider__item-reed-more {
+    max-width: 290px;
+
+    &:before {
+      right: 0;
+    }
+  }
+
+  .middle-slider__arrow-right {
+    display: block;
+    position: absolute;
+    top: 29%;
+    right: 4%;
+    width: 9px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .middle-slider__content-wrapper {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 568px;
+    padding-left: 119px;
+  }
+
+  .middle-slider__item-subtitle {
+    max-width: 250px;
+  }
+  .middle-slider__item-reed-more {
+    max-width: 290px;
+  }
+  .middle-slider__arrow-right {
+    right: 11.5%;
+  }
+}
